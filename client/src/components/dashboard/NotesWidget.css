@@ -1,0 +1,19 @@
+.notes-widget {
+  background: #f1c75b;
+
+  border-radius: 16px;
+
+  padding: 1rem;
+}
+
+.notes-widget textarea {
+  width: 100%;
+
+  min-height: 200px;
+
+  border: none;
+
+  resize: none;
+
+  background: transparent;
+}

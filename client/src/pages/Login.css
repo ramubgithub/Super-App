@@ -1,0 +1,43 @@
+.login-page {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.login-left {
+  background: #111827;
+
+  color: white;
+
+  padding: 2rem;
+}
+
+.login-right {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+
+  .login-page {
+    flex-direction: row;
+  }
+
+  .login-left {
+    width: 45%;
+  }
+
+  .login-right {
+    width: 55%;
+  }
+
+}

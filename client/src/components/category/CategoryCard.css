@@ -1,0 +1,25 @@
+.category-card {
+  min-height: 140px;
+
+  border-radius: 16px;
+
+  padding: 1rem;
+
+  cursor: pointer;
+
+  transition: .3s;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-card.active {
+  border: 4px solid white;
+}

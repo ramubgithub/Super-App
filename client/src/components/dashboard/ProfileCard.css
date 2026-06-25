@@ -1,0 +1,27 @@
+.profile-card {
+  background: #5746ea;
+
+  border-radius: 16px;
+
+  padding: 1.5rem;
+
+  color: white;
+}
+
+.tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 1rem;
+}
+
+.tags span {
+  background: #9f94ff;
+
+  padding: 8px 12px;
+
+  border-radius: 20px;
+}

@@ -1,0 +1,53 @@
+.register-page {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.register-left {
+  background: #1f2937;
+
+  color: white;
+
+  padding: 2rem;
+}
+
+.register-left h1 {
+  font-size: 2.5rem;
+}
+
+.register-left p {
+  margin-top: 1rem;
+}
+
+.register-right {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 2rem;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+  .register-page {
+    flex-direction: row;
+  }
+
+  .register-left {
+    width: 45%;
+  }
+
+  .register-right {
+    width: 55%;
+  }
+
+}
